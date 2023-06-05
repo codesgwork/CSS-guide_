@@ -1,0 +1,16 @@
+header h1 {
+  padding: 2rem 0;
+}
+
+.display-msg {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.msg-image {
+  margin-right: 2rem;
+}
+.msg-text .mg-image {
+  display: flex;
+  align-items: center;
+}

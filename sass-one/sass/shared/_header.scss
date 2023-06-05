@@ -1,0 +1,19 @@
+.header {
+  display: flex;
+  padding-top: 5rem;
+
+  &-title {
+    font-family: var(--logo);
+    font-family: var(--heading);
+    // font-family: var(--subcont);
+    // font-weight: 900;
+  }
+
+  & * {
+    margin-right: 2rem;
+  }
+  &-icon {
+    height: 50px;
+    width: 50px;
+  }
+}

@@ -1,0 +1,47 @@
+
+// notes
+.container-note {
+  display: flex;
+
+  //   flex-direction:
+  flex-direction: row; //def
+  flex-direction: row-reverse column column-reverse;
+
+  //   flex-wrap
+  flex-wrap: nowrap; //def
+  flex-wrap: wrap; //def
+  flex-wrap: wrap-reverse; //def
+
+  //   justify-content
+  justify-content: flex-start; //def
+  justify-content: flex-end center space-between space-around space-evenly;
+
+  // align-items
+  align-items: stretch; //def
+  align-items: flex-start flex-end center baseline;
+
+  // align-content
+  align-content: stretch; //def
+  align-content: flex-start flex-end center space-between space-around;
+}
+
+.flex-item-notes {
+  align-self: auto; //def
+  align-self: stretch flex-start flex-end center baseline;
+
+  order: 0; //integer
+
+  flex-grow: 0; //integer => def
+  flex: 1; // all available space
+
+  flex-shrink: 1; // integer => def
+  flex-shrink: 0; // integer => no shrink
+
+  flex-basis: auto; //length => def
+
+  flex-basis: auto; //length => i.e. 30%
+
+  // combind
+  //   flex: grow shrink basis;
+  flex: 0 1 auto;
+}

@@ -1,0 +1,29 @@
+.used-icon {
+  margin-top: 10rem;
+  display: grid;
+  grid-template-columns: repeat(2, min-content);
+  gap: 5rem;
+}
+.svg-icon {
+  // display: inline-block;
+  width: 10rem;
+  height: 10rem;
+  stroke-width: 0.25;
+  // stroke: currentColor;
+  stroke: #3330f9;
+  fill: currentColor;
+
+  &-fast-forward {
+    font-size: 102px;
+    // color: #81d2f8;
+    // fill: #81d2f8;
+    fill: var(--grey-50);
+  }
+
+  &-arrow-with-circle-left {
+    font-size: 102px;
+    // color: #81f8bf;
+    // fill: #81f8bf;
+    fill: var(--grey-50);
+  }
+}
